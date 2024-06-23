@@ -57,10 +57,16 @@ menu = {
         "Fried banana": 4.49
     },
     "CHICKEN STRIPS & SANDWICHES": {
+      "Buffalo Chicken Sandwich Combo": 9.99,
+      "Hot Honey BBQ Chicken Sandwich Combo": 9.99,
+      "Juicy Chicken Strips Combo": 9.99,
+      "Sup-Fil-A Sandwich Combo": 9.99,
+      "Buffalo Chicken Strips Combo": 9.99,
+      "Buffalo Chicken Chopped Salad": 9.99
 
     },
     "OUR FAMOUS DRINKS": {
-        
+
     }
 }
 
