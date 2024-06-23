@@ -175,22 +175,21 @@ while place_order:
                     # Add the item name, price, and quantity to the order list
                     order.append({"Item name": item_name, "Price": item_price, "Quantity": quantity})
 
-
+                    print(f"{item_selection} is not a valid item number.")
+            else:
                     # Tell the customer that their input isn't valid
-
+                print(f"{item_selection} was not a valid item number.")
+        else:
 
                 # Tell the customer they didn't select a menu option
-
-        else:
-            # Tell the customer they didn't select a menu option
             print(f"{menu_category} was not a menu option.")
-    else:
+else:
         # Tell the customer they didn't select a number
         print("You didn't select a number.")
 
     while True:
         # Ask the customer if they would like to order anything else
-        keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o ")
+        keep_ordering = input("\nWould you like to keep ordering? (Y)es or (N)o ").strip().lower()
 
         # 5. Check the customer's input
 
