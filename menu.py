@@ -151,14 +151,20 @@ while place_order:
 
 
                 # 4. Check if the menu selection is in the menu items
+                if item_selection in menu_items:
 
                     # Store the item name as a variable
+                    item_name = menu_items[item_selection]["Item name"]
+                    item_price = menu_items[item_selection]["Price"]
 
 
                     # Ask the customer for the quantity of the menu item
+                    quantity_input = input(f"How many {item_name}s would you like? (default is 1): ")
 
 
                     # Check if the quantity is a number, default to 1 if not
+                    if not quantity_input.isdigit():
+                        quantity = 1
 
 
                     # Add the item name, price, and quantity to the order list
