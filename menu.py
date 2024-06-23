@@ -85,7 +85,7 @@ print("Welcome to Sup Dogs Chapel Hill.")
 place_order = True
 while place_order:
     # Ask the customer from which menu category they want to order
-    print("From which menu would you like to order? ")
+    print("\nFrom which menu would you like to order? ")
 
     # Create a variable for the menu item number
     i = 1
