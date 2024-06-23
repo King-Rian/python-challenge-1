@@ -75,10 +75,10 @@ menu = {
 
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
-
+order = []
 
 # Launch the store and present a greeting to the customer
-print("Welcome to the variety food truck.")
+print("Welcome to Sup Dogs Chapel Hill.")
 
 # Customers may want to order multiple items, so let's create a continuous
 # loop
@@ -221,3 +221,9 @@ print("--------------------------|--------|----------")
 # 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum()
 # and print the prices.
+
+
+
+
+
+
