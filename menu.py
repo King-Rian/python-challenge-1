@@ -1,11 +1,18 @@
 # Menu dictionary for Sup Dogs
 menu = {
     "WORLD CLASS APPS": {
-        "Cheesy Tots": 8.99,
-        "World Class Bacon Cheese Fries": .69,
-        "Jalapeño Popper Tots": .49,
-        "Macho Nachos": 1.99,
-        "Buffalo Boneless Wings": 8.99
+        "Cheesy Tots": {
+            "Regular": 8.99,
+            'Add Chopped Bacon for': 10.49
+        },
+        "World Class Bacon Cheese Fries": 8.99,
+        "Jalapeño Popper Tots": 8.99,
+        "Macho Nachos": {
+            "Regular": 8.99,
+            'Add Buffalo Chicken': 11.99
+        },
+        "Buffalo Boneless Wings": 8.99,
+
     },
     "SUP DOGS": {
         "Burrito": 4.49,
@@ -48,6 +55,12 @@ menu = {
         "Australian Pavlova": 9.99,
         "Rice pudding": 4.99,
         "Fried banana": 4.49
+    },
+    "CHICKEN STRIPS & SANDWICHES": {
+
+    },
+    "OUR FAMOUS DRINKS": {
+        
     }
 }
 
