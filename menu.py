@@ -1,12 +1,13 @@
-# Menu dictionary
+# Menu dictionary for Sup Dogs
 menu = {
-    "Snacks": {
-        "Cookie": .99,
-        "Banana": .69,
-        "Apple": .49,
-        "Granola bar": 1.99
+    "WORLD CLASS APPS": {
+        "Cheesy Tots": 8.99,
+        "World Class Bacon Cheese Fries": .69,
+        "Jalapeño Popper Tots": .49,
+        "Macho Nachos": 1.99,
+        "Buffalo Boneless Wings": 8.99
     },
-    "Meals": {
+    "SUP DOGS": {
         "Burrito": 4.49,
         "Teriyaki Chicken": 9.99,
         "Sushi": 7.49,
@@ -21,7 +22,7 @@ menu = {
             "Beef": 8.49
         }
     },
-    "Drinks": {
+    "SPECIALTY SUP DOGS": {
         "Soda": {
             "Small": 1.99,
             "Medium": 2.49,
@@ -38,7 +39,7 @@ menu = {
             "Iced": 3.49
         }
     },
-    "Dessert": {
+    "HAND-SMASHED BURGERS": {
         "Chocolate lava cake": 10.99,
         "Cheesecake": {
             "New York": 4.99,
