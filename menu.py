@@ -66,6 +66,9 @@ menu = {
 
     },
     "OUR FAMOUS DRINKS": {
+        "Orange Sup Crush": 7.00,
+        "Grapefruit Sup Crush": 7.00,
+        "Sup Swirl": 7.00
 
     }
 }
