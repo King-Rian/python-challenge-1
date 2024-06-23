@@ -38,7 +38,7 @@ menu = {
 
 
 
-        
+
         "Tea": {
             "Green": 2.49,
             "Thai iced": 3.99,
@@ -169,9 +169,11 @@ while place_order:
                     # Check if the quantity is a number, default to 1 if not
                     if not quantity_input.isdigit():
                         quantity = 1
-
+                    else:
+                        quantity = int(quantity_input)
 
                     # Add the item name, price, and quantity to the order list
+                    order.append({"Item name": item_name, "Price": item_price, "Quantity": quantity})
 
 
                     # Tell the customer that their input isn't valid
