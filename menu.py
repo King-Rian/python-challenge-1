@@ -111,10 +111,10 @@ while place_order:
             # Save the menu category name to a variable
             menu_category_name = menu_items[int(menu_category)]
             # Print out the menu category name they selected
-            print(f"You selected {menu_category_name}")
+            print(f"\nYou selected {menu_category_name}")
 
             # Print out the menu options from the menu_category_name
-            print(f"What {menu_category_name} item would you like to order?")
+            print(f"\nWhat {menu_category_name} item would you like to order?")
             i = 1
             menu_items = {}
             print("Item # | Item name                | Price")
@@ -123,9 +123,9 @@ while place_order:
                 # Check if the menu item is a dictionary to handle differently
                 if type(value) is dict:
                     for key2, value2 in value.items():
-                        num_item_spaces = 24 - len(key + key2) - 3
+                        num_item_spaces = 24 - len(key + " - " + key2) 
                         item_spaces = " " * num_item_spaces
-                        print(f"{i}      | {key} - {key2}{item_spaces} | ${value2}")
+                        print(f"{i}      | {key} - {key2}{item_spaces} | ${value2:.2f}")
                         menu_items[i] = {
                             "Item name": key + " - " + key2,
                             "Price": value2
@@ -134,18 +134,20 @@ while place_order:
                 else:
                     num_item_spaces = 24 - len(key)
                     item_spaces = " " * num_item_spaces
-                    print(f"{i}      | {key}{item_spaces} | ${value}")
+                    print(f"{i}      | {key}{item_spaces} | ${value:.2f}")
                     menu_items[i] = {
                         "Item name": key,
                         "Price": value
                     }
                     i += 1
             # 2. Ask customer to input menu item number
-
+            item_selection = input("\nType the item number: ")
 
             # 3. Check if the customer typed a number
+            if item_selection.isdigit():
 
                 # Convert the menu selection to an integer
+                item_selection = int(item_selection)
 
 
                 # 4. Check if the menu selection is in the menu items
