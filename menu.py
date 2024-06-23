@@ -12,29 +12,33 @@ menu = {
             'Add Buffalo Chicken': 11.99
         },
         "Buffalo Boneless Wings": 8.99,
+        "Pepperoni Pizza Fries or Tots": 8.99,
+        "Fried pickles fries": 8.99,
+        "Taco Tots": 8.99,
+        "Green Bean Fries": 8.99,
+        "Funnel Cake Stix": 8.99
 
     },
     "SUP DOGS": {
-        "Burrito": 4.49,
-        "Teriyaki Chicken": 9.99,
-        "Sushi": 7.49,
-        "Pad Thai": 6.99,
-        "Pizza": {
-            "Cheese": 8.99,
-            "Pepperoni": 10.99,
-            "Vegetarian": 9.99
-        },
-        "Burger": {
-            "Chicken": 7.49,
-            "Beef": 8.49
+        "Sup Dogs Combo": 6.99,
+        "Simple Dog Combo": 6.99,
+        "Slaw Dog Combo": 6.99,
+        "Old School Dog Combo": 6.99,
+        "Chili Cheese Dog Combo": 6.99,
+        "Spicy Hot Dog Combo": {
+            "Regular": 7.99,
+            "Double the Dog": 9.99
         }
     },
     "SPECIALTY SUP DOGS": {
-        "Soda": {
-            "Small": 1.99,
-            "Medium": 2.49,
-            "Large": 2.99
+        "Smokehouse Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49
         },
+
+
+
+        
         "Tea": {
             "Green": 2.49,
             "Thai iced": 3.99,
