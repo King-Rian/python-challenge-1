@@ -1,4 +1,5 @@
-mmenu = {
+# Menu dictionary for Sup Dogs
+menu = {
     "WORLD CLASS APPS": {
         "Cheesy Tots": {
             "Regular": 8.99,
@@ -32,30 +33,70 @@ mmenu = {
     "SPECIALTY SUP DOGS": {
         "Smokehouse Dog Combo": {
             "Regular": 6.99,
-            "Double the Dog": 8.49
+            "Double the Dog": 8.49,
         },
-
-        "Tea": {
-            "Green": 2.49,
-            "Thai iced": 3.99,
-            "Irish breakfast": 2.49
+        "Hawaiian Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
         },
-        "Coffee": {
-            "Espresso": 2.99,
-            "Flat white": 2.99,
-            "Iced": 3.49
+        "Western Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Sweet Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Firehouse Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Cool Down Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Cheesy Bacon Delight Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Buffalo Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "New York Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Chicago Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Veggie Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
+        "Ranchero Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
         }
+        
     },
     "HAND-SMASHED BURGERS": {
-        "Chocolate lava cake": 10.99,
-        "Cheesecake": {
-            "New York": 4.99,
-            "Strawberry": 6.49
-        },
-        "Australian Pavlova": 9.99,
-        "Rice pudding": 4.99,
-        "Fried banana": 4.49
+        "Smokehouse Burger Combo": 9.99,
+        "Sup Burger Combo with Cheese": 9.99,
+        'Hawaiian "Luau" Burger Combo': 9.99,
+        "Old-Fashioned Burger Combo": 9.99,
+        "Smoky Sweet & Spicy Burger Combo": 9.99,
+        "Cool Down Burger Combo": 9.99,
+        "Slaw Burger Combo": 9.99,
+        "The Bacon Cheese Fry Burger": 9.99,
+        "The Nacho Burger": 9.99,
+        "Cowboy Burger Combo": 9.99,
+        "Buffalo Burger Combo": 9.99,
+        "Blackout Burger Combo": 9.99,
+        "Veggie Burger Combo": 9.99
     },
+    
     "CHICKEN STRIPS & SANDWICHES": {
       "Buffalo Chicken Sandwich Combo": 9.99,
       "Hot Honey BBQ Chicken Sandwich Combo": 9.99,
