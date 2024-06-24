@@ -277,7 +277,10 @@ menu = {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-
+        "Sweet Dog Combo": {
+            "Regular": 6.99,
+            "Double the Dog": 8.49,
+        },
         "Firehouse Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
@@ -286,34 +289,31 @@ menu = {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "Cheesy Bacon Delight Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "Buffalo Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "New York Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "Chicago Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "Veggie Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
         },
-        "Western Dog Combo": {
+        "Ranchero Dog Combo": {
             "Regular": 6.99,
             "Double the Dog": 8.49,
-        },
-        "Western Dog Combo": {
-            "Regular": 6.99,
-            "Double the Dog": 8.49,
-        },
+        }
+        
     },
     "HAND-SMASHED BURGERS": {
         "Chocolate lava cake": 10.99,
